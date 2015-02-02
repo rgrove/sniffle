@@ -1,0 +1,51 @@
+{
+  ".NET": {
+    "CLR": true
+  },
+
+  "KHTML": {
+    "like": {
+      "Gecko": true
+    }
+  },
+
+  "iPhone": {
+    "OS": true
+  },
+
+  "like": {
+    "Firefox": true,
+
+    "Gecko": true,
+
+    "Mac": {
+      "OS": {
+        "X": true
+      }
+    }
+  },
+
+  "Mac": {
+    "OS": {
+      "X": true
+    }
+  },
+
+  "Media": {
+    "Center": {
+      "PC": true
+    }
+  },
+
+  "Microsoft": {
+    "Outlook": true
+  },
+
+  "Windows": {
+    "98": true,
+    "2000": true,
+    "CE": true,
+    "Mobile": true,
+    "NT": true
+  }
+}

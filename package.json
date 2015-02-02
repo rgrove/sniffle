@@ -1,0 +1,34 @@
+{
+  "name": "sniffle",
+  "version": "0.0.1",
+  "description": "CLI app that learns and identifies user agent strings using a Redis-backed naive Bayes classifier. Because why the hell not.",
+  "author": "Ryan Grove <ryan@wonko.com> (http://wonko.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgrove/sniffle"
+  },
+  "keywords": [
+    "user agent",
+    "useragent",
+    "ua",
+    "naive",
+    "Bayesian",
+    "Bayes",
+    "classifier",
+    "parser",
+    "browser"
+  ],
+  "dependencies": {
+    "bluebird": "2.9.1",
+    "cli": "0.6.5",
+    "lodash": "^3.0.0",
+    "then-redis": "1.3.0"
+  },
+  "optionalDependencies": {
+    "hiredis": "0.1.17"
+  },
+  "bin": {
+    "sniffle": "./bin/sniffle.js"
+  }
+}
